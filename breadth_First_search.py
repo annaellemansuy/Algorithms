@@ -11,7 +11,7 @@ graph = {}
 graph["me"] = ["Raphaël", "Jane", "Eduardo"]
 graph["Jane"] = ["Sam", "Clover", "Alex"]
 graph["Raphaël"] = ["Christopher"]
-graph["Sam"] = []
+graph["Sam"] = ["Jane"]
 graph["Clover"] = []
 graph["Christopher"] = []
 graph["Eduardo"] = []
@@ -37,8 +37,8 @@ def search(friend):
 def friendOwns(name):
   elementExist = name in pplwhohaveRollsRoyce
   return elementExist
-
-search("me")
+# find people who own rolls royce closest to you
+search("Sam")
 
   
 
