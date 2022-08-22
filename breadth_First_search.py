@@ -1,4 +1,5 @@
 
+# Big O notation (no of ppl + no of edges)
 import numpy as np
 from collections import deque
 
