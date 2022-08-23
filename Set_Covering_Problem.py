@@ -1,4 +1,7 @@
 #Scenario : you want to use certain radio stations to broadcast a message to as many ppl as possible in certain places
+#Travelling Sales Problem and Set Covering Problem are NP complete problems have a factorial no of operations
+#you have to calculate every possible solution and pick the shortest/smallest one
+#sometimes better to approximate using greedy algorithms
 
 Places_Needed = set(["Paris", "New York", "Hong Kong", "London", "Toronto", "Rome", "Beijing"])
 stations = {}
