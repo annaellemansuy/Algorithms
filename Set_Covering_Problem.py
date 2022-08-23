@@ -12,8 +12,8 @@ final_stations = set()
 while len(Places_Needed) > 0:
   best_station = None
   places_covered = set()
-  for station, stations_for_places in stations.items():
-    covered = Places_Needed & stations_for_places #set intersection
+  for station, places in stations.items(): #loops over every station
+    covered = Places_Needed & places #set intersection
     if len(covered) > len(places_covered):
       print(Places_Needed)
       best_station = station
